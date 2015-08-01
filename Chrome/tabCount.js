@@ -12,7 +12,7 @@ var options = {
 
 function count() {
 	counter++;
-	if (counter === 1) {
+	if (counter === 20) {
 		id = goldenfit();
 		counter = 0;
 	}
