@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Golden Fit",
+  "description": "This extension reminds you to exercise by telling you to do push-ups after 25 tab events.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "GoldenFit.png",
+    "default_popup": "popup.html",
+    "default_title": "Do 5 Pushups!"
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  
+  "background": {
+    "scripts": ["tabCount.js"],
+    "persistent": false
+  }
+}
