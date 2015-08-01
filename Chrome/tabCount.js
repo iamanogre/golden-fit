@@ -4,17 +4,15 @@
 var id = null;
 var counter = 0;
 var options = {
-		type: "image",
+		type: "basic",
 		title: "Golden Fit",
-		message: "5 pushups! Keep it up!",
-		iconUrl: "gold.png",
-		imageUrl: "GoldenFit.png",
-		buttons: [{ title: 'Close', }],
+		message: "Do 5 pushups! Keep it up!",
+		iconUrl: "GoldenFit400.png",
 	};
 
 function count() {
 	counter++;
-	if (counter === 25) {
+	if (counter === 1) {
 		id = goldenfit();
 		counter = 0;
 	}
