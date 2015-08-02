@@ -1,6 +1,7 @@
 /* notification and tab counter events js */
 
 /* global variables and options (static so far) */
+var TABEVENTS = 20;
 var id = null;
 var counter = 0;
 var options = {
@@ -12,7 +13,7 @@ var options = {
 
 function count() {
 	counter++;
-	if (counter === 20) {
+	if (counter === TABEVENTS) {
 		id = goldenfit();
 		counter = 0;
 	}

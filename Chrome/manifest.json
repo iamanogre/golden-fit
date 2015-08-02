@@ -10,11 +10,10 @@
     "default_popup": "about.html",
     "default_title": "Do 5 Pushups!"
   },
+  
   "permissions": [
     "tabs",
     "notifications"
-    //"activeTab",
-    //"https://ajax.googleapis.com/"
   ],
   
   "background": {
